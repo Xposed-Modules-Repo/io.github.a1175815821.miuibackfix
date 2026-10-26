@@ -7,7 +7,8 @@
 
 - **适用**：Android 14 的 HyperOS / MIUI（Android 15+ 没有这个 bug）
 - **作用域**：`com.miui.home`（系统桌面）
-- **源码 / 更新日志 / 详细原理**：https://github.com/a1175815821/MIUI-Back-Gesture-Fix
+- **源码 / 更新日志 / 详细原理**：[a1175815821/MIUI-Back-Gesture-Fix](https://github.com/a1175815821/MIUI-Back-Gesture-Fix)
+- **下载**：[Releases](https://github.com/a1175815821/MIUI-Back-Gesture-Fix/releases)
 
 ---
 
@@ -95,4 +96,4 @@ Android 15+ 上原逻辑本来就不会失败，hook 直接放行，无副作用
 
 ## 许可
 
-MIT · 源码：https://github.com/a1175815821/MIUI-Back-Gesture-Fix
+MIT · 源码：[a1175815821/MIUI-Back-Gesture-Fix](https://github.com/a1175815821/MIUI-Back-Gesture-Fix)
