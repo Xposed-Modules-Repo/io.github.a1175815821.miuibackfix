@@ -1,0 +1,1 @@
+修复 HyperOS / MIUI 上侧滑返回手势失效：桌面用 Android 15 专属的 8 参数构造函数反射创建 BackMotionEvent，在 Android 14 上必然失败并返回 null，App 收到空事件后中止返回。模块改用框架里真实存在的构造函数重建事件，让转发流程恢复正常。作用域：系统桌面 com.miui.home。
